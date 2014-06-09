@@ -59,7 +59,6 @@ template<class T>
 T* YPObject<T>::Retain()
 {
 	_yp_count++;
-	cout << _yp_count << endl;
 	return (T*)this;
 }
 
