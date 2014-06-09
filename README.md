@@ -24,7 +24,7 @@ To use these convenient tools, your class must inherit 'YPObject<T>', such as
 		...
 	};
 
-	We offer a quick way to replace the above:
+    We offer a quick way to replace the above:
 	YPClass(Test)
 	{
 		...
@@ -40,4 +40,4 @@ Some code which has been written can easily be expanded in order to use this too
 		}
 	};
 
-	Macro 'YPExtClass(T)' expands class name with prefix 'YP'
+    Macro 'YPExtClass(T)' expands class name with prefix 'YP'
